@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+
+  "name": "The Mustache Game",
+  "description": "A Chrome extension version of the popular drinking game.",
+  "version": "1.0",
+  "page_action": {
+    "default_icon": "icons/icon19.png"
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}
