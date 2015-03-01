@@ -5,7 +5,7 @@ chrome.runtime.onInstalled.addListener(function() {
     // With a new rule ...
     chrome.declarativeContent.onPageChanged.addRules([
       {
-        // That fires when a page's URL contains a 'g' ...
+        // That fires when a page's URL is netflix or youtube ...
         conditions: [
           new chrome.declarativeContent.PageStateMatcher({
             pageUrl: { 
@@ -18,4 +18,8 @@ chrome.runtime.onInstalled.addListener(function() {
       }
     ]);
   });
+});
+
+chrome.pageAction.onClicked.addListener(function (tab) { //Fired when User Clicks the Icon
+    chrome.tabs.executeScript(null, {file: "extension.js"});
 });
