@@ -21,5 +21,6 @@ chrome.runtime.onInstalled.addListener(function() {
 });
 
 chrome.pageAction.onClicked.addListener(function (tab) { //Fired when User Clicks the Icon
+   	chrome.tabs.executeScript(null, {file: "jquery.min.js"});
     chrome.tabs.executeScript(null, {file: "extension.js"});
 });

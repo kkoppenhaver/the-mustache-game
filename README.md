@@ -12,3 +12,11 @@ To-do List
 
 	• Allow players to select their mustache styles
 	• Allow players to position their mustaches
+
+
+####Image credits
+Thanks to bryn mackenzie, Erika Jasso, and Dima Lagunov for creating the icons used in this project.
+
+[http://thenounproject.com/term/men/5822/](http://thenounproject.com/term/men/5822/)
+[http://thenounproject.com/term/moustache/20665/](http://thenounproject.com/term/moustache/20665/)
+[http://thenounproject.com/term/hair/4843/](http://thenounproject.com/term/hair/4843/)
