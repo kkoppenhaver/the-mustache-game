@@ -26,5 +26,10 @@
     "https://www.netflix.com/",
     "http://www.youtube.com/",
     "https://www.youtube.com/"
+  ],
+  "web_accessible_resources": [
+    "images/mustache1.svg",
+    "images/mustache2.svg",
+    "images/mustache3.svg"
   ]
 }
