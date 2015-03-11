@@ -30,7 +30,7 @@ var mustache_height = mustache_width / 2;
 var width_padding = w_width * .2;
 var height_padding = w_height * .2;
 
-$('<div class="mustache-container" style="position: absolute;z-index:10000;width:' +  w_width + 'px; height:' + w_height + 'px; top: 0; left: 0;">').appendTo('body');
+$('<div class="mustache-container" style="position: absolute;z-index:10000;width:' +  w_width + 'px; height:' + w_height + 'px; top: 0; left: 0;pointer-events: none;">').appendTo('body');
 
 
 
